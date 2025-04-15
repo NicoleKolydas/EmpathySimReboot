@@ -15,6 +15,8 @@ public class InkManager : MonoBehaviour
     void Start()
     {
         story = new Story(inkJSON.text);
+        Debug.Log("Story loaded!");
+
         RefreshView();
     }
 
